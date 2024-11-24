@@ -12,7 +12,7 @@ export class DataBidingComponent implements OnInit {
 
   public desabilitado: boolean = false
 
-  public imagemTeste: string = "https://services.meteored.com/img/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1024.jpg"
+  public imagemTeste: string = "https://services.meteored.com/im/article/inteligencia-artificial-aprende-a-reconstruir-imagens-vistas-por-pessoas-ciencia-fotos-1679175318563_1024.jpg"
 
   constructor(){
 
@@ -20,6 +20,10 @@ export class DataBidingComponent implements OnInit {
   
   ngOnInit(): void {
     
+  }
+
+  public alertainfo(valor: MouseEvent){
+    console.log(valor)
   }
 
 }
